@@ -1,0 +1,27 @@
+:root {
+  --clr-title-black: #0d0d0d;
+  --clr-black: #0d0d0d;
+  --clr-lightgray: #707070;
+  --clr-gray: #bcbcbc;
+  --clr-product-devider: #bcbcbc;
+  --clr-checkout-green: #79ad36;
+  --clr-white: #FFFFFF;
+  --clr-black:  #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.main-container {
+  margin: 0 auto;
+  padding: 2rem;
+}

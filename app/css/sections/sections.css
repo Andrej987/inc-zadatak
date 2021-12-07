@@ -1,0 +1,38 @@
+/* .triangle {
+  position: absolute;
+  border-color: transparent transparent #fff;
+  border-style: solid;
+  border-width: 13px 14px 28px;
+  filter: drop-shadow(0 -2px 1px rgba(0, 0, 0, 0.5));
+  height: 0;
+  right: 25px;
+  top: 65px;
+  width: 0;
+  z-index: 1;
+} */
+
+
+/* .cart:after {
+  display: inline-block;
+  border: 1em solid transparent;
+  box-shadow: 2px -2px 3px -2px rgb(0 0 0 / 40%);
+  box-sizing: border-box;
+  content: "";
+  height: 33px;
+  position: absolute;
+  right: 25px;
+  top: 8px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  width: 33px;
+  background: white;
+  z-index: 1;
+} */
+
+
+
+.edit-checkout-btn-container {
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.6rem 0;
+}

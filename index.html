@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inchoo</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source Serif Pro|Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app/public/styles.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="header">
+        <button type="button" class="open-cart-btn">
+          <img src="app/resources/images/Shape.png" id="cart-btn-img" />
+        </button>
+        <section class="cart" id="cart">
+          <h5 class="cart-title">My Cart (5 items)</h5>
+          <button class="cart-btn">
+            <img
+              src="app/resources/images/up.png"
+              class="up"
+              id="up"
+              alt="Up"
+            />
+          </button>
+          <ul class="products-list-container" id="products-list-container">
+            <li class="product">
+              <div class="product-img-container">
+                <img
+                  src="app/resources/images/brembo-red.png"
+                  alt="GT-S Series Cross Drilled"
+                />
+              </div>
+              <div class="product-info-container">
+                <p class="product-name">Set of GT-S Series Cross Drilled</p>
+                <div class="product-attribute">
+                  <span>Brand:</span><span>Brembo</span>
+                </div>
+                <div class="product-attribute">
+                  <span>Color:</span><span>Red</span>
+                </div>
+                <p class="product-price">1 x $1770.00</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div class="product-img-container">
+                <img
+                  src="app/resources/images/barbour.png"
+                  alt="Disk GT-S Cross Drilled"
+                />
+              </div>
+              <div class="product-info-container">
+                <p class="product-name">Just Disk GT-S Cross Drilled</p>
+                <div class="product-attribute">
+                  <span> Brand:</span><span>Barbour International</span>
+                </div>
+                <div class="product-attribute">
+                  <span>Size:</span><span>405mm</span>
+                </div>
+                <p class="product-price">1 x $950.00</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div class="product-img-container">
+                <img
+                  src="app/resources/images/brembo-yellow.png"
+                  alt="GT Slotted 2 Piece Brake Rotors"
+                />
+              </div>
+              <div class="product-info-container">
+                <p class="product-name">GT Slotted 2 Piece Brake Rotors</p>
+                <div class="product-attribute">
+                  <span>Brand:</span><span>Brembo</span>
+                </div>
+                <div class="product-attribute">
+                  <span>Color:</span><span>Yellow</span>
+                </div>
+                <p class="product-price">2 x $1670.00</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div class="product-img-container">
+                <img
+                  src="app/resources/images/valvoline.png"
+                  alt="Synthetic Break Fluid"
+                />
+              </div>
+              <div class="product-info-container">
+                <p class="product-name">Synthetic Break Fluid</p>
+                <div class="product-attribute">
+                  <span>Brand:</span><span>Valvoline</span>
+                </div>
+                <div class="product-attribute">
+                  <span>Size:</span><span>354ml</span>
+                </div>
+                <p class="product-price">1 x $10.00</p>
+              </div>
+            </li>
+          </ul>
+
+          <button class="cart-btn">
+            <img
+              src="app/resources/images/down.png"
+              class="down"
+              id="down"
+              alt="Down"
+            />
+          </button>
+          <div class="edit-checkout-btn-container">
+            <button type="button" class="edit-btn">Edit Cart</button>
+            <button type="button" class="checkout-btn">Checkout</button>
+          </div>
+        </section>
+      </header>
+    </main>
+    <!-- Script -->
+    <script src="app/src/script.js"></script>
+  </body>
+</html>
